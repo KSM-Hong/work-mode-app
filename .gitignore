@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+.output
+.vinxi
+.tanstack/**
+.nitro
+*.local
+
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+dist-electron
+electron-release
+
+# Local environment configuration (keep the value-free template)
+.env
+.env.*
+!.env.example
+
+# Signing credentials and provisioning material
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+
+# Packaged applications and release archives belong in GitHub Releases
+*.app/
+*.dmg
+*.zip
+*.pkg
+release/
+releases/
+
+# Generated test reports
+coverage/
+playwright-report/
+test-results/
